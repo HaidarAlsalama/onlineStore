@@ -42,7 +42,6 @@ body {
 }
 .links li {
     display: inline;
-
     margin-left: 1px;
     background-color: white;
 }
@@ -81,7 +80,7 @@ body {
     margin: 0;
     color: #656464;
 }
-.hero .buttons {
+.hero .space {
     margin-top: 80px;
 }
 
@@ -138,6 +137,11 @@ body {
     text-align: center;
     border-collapse: collapse;
 }
+.paraMore {
+    padding: 0 20%;
+    text-align: center;
+}
+
 /* end hero */
 
 /** start footer*/

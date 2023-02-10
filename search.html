@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/main.css">
-    <title>Order</title>
+    <title>Search</title>
 </head>
 <body>
     <div class="navBar">
@@ -19,19 +18,22 @@
                 <li><a href="order.html">Order</a></li>
                 <li><a href="#">More</a></li>
             </ul>
+            <label for="search"></label>
             <input  type="search" id="search" class="search" placeholder="search a book">
         </div>
     </div>
 
     <div class="hero">
-        <h1>Order</h1>
-        <p>You can click on Select a book to chose a book and Request a quantity to chose the quantity</p>
+        <h1>Search</h1>
+        <p> </p>
         <div class="space">
-            <div class="buttons">
-                <a href="" class="myOrders">Select a book</a>
-                <a href="" class="register">Request quantity</a>
-                <a href="" class="register">Order</a>
-            </div>
+            <form action="/" method="get">
+                <div >
+                    <label for="bookName"></label>
+                    <input type="text" name="bookName" id="bookName" placeholder="Enter a book's name" required>
+                </div>
+                <button type="submit">Search</button>
+            </form>
         </div>
     </div>
 
