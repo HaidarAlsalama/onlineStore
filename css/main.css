@@ -59,6 +59,10 @@ body {
     height: 40px;
     margin-top: 10px;
 }
+
+@media (max-width: 576px) {
+
+}
 /* end navbar */
 
 /* start hero */
@@ -142,6 +146,15 @@ body {
     text-align: center;
 }
 
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+    .hero p {
+        text-align: center;
+    }
+}
 /* end hero */
 
 /** start footer*/
@@ -176,4 +189,10 @@ body {
     color: #454343;
 }
 
+@media (max-width: 576px) {
+    .footer ul li {
+        padding: 0 5px;
+    }
+
+}
 /* end footer */
