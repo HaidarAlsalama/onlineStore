@@ -97,7 +97,7 @@ span {
 }
 
 .showMenu {
-    height: 40vh !important;
+    height: 30vh !important;
 }
 
 @media (max-width: 1056px) {
@@ -137,7 +137,7 @@ span {
     }
     .menuCul ul li a{
         padding: 10px;
-        font-size: 20px;
+        font-size: 0.9em;
     }
     .menuCul ul li a:hover{
         color: white;
