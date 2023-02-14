@@ -219,8 +219,10 @@ span {
     color: white;
     background-color: silver;
 }
-.ordersTable table {
+.ordersTable table,
+.libraryTable table{
     margin-top: 40px;
+
 }
 
 .ordersTable table,
@@ -231,6 +233,16 @@ span {
     text-align: center;
     border-collapse: collapse;
 }
+.libraryTable table,
+.libraryTable table tr th,
+.libraryTable table tr td {
+    border: 1px solid silver;
+    padding: 10px 20px;
+    text-align: center;
+    border-collapse: collapse;
+    /*width: 100%;*/
+}
+
 .paraMore {
     padding: 0 20%;
     text-align: center;
