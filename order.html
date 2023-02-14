@@ -11,7 +11,7 @@
     <div class="navBar">
         <div class="logo">
             <span>Library</span>
-            <span>Online Story</span>
+            <span>Online Store</span>
         </div>
 
         <div class="menuButton">
@@ -23,9 +23,9 @@
         <div class="menu menuCul">
             <ul class="links">
                 <li><a href="home.html">Home</a></li>
-                <li><a href="#">Products</a></li>
+                <li><a href="products.html">Products</a></li>
                 <li><a href="order.html">Order</a></li>
-                <li><a href="#">More</a></li>
+                <li><a href="more.html">More</a></li>
             </ul>
 
             <input  type="search" id="search" class="search" placeholder="search a book">
@@ -36,20 +36,27 @@
         <h1>Order</h1>
         <p>You can click on Select a book to chose a book and Request a quantity to chose the quantity</p>
         <div class="space">
-            <div class="buttons">
-                <a href="" class="myOrders">Select a book</a>
-                <a href="" class="register">Request quantity</a>
-                <a href="" class="register">Order</a>
-            </div>
+            <form action="#" method="get">
+                <div class="">
+                    <label for="bookSelect"></label>
+                    <input type="text" name="bookSelect" id="bookSelect" placeholder="Select a book" required>
+                </div>
+                <div class="">
+                    <label for="quantity"></label>
+                    <input type="text" name="quantity" id="quantity" placeholder="Request quantity" required>
+                </div>
+                <button type="submit">Search</button>
+                <button type="submit">Order</button>
+            </form>
         </div>
     </div>
 
     <div class="footer">
         <ul>
             <li><a href="home.html">Home</a></li>
-            <li><a href="#">Products</a></li>
+            <li><a href="products.html">Products</a></li>
             <li><a href="order.html">Order</a></li>
-            <li><a href="#">More</a></li>
+            <li><a href="more.html">More</a></li>
         </ul>
     </div>
     <script src="js/main.js"></script>
